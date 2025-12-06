@@ -1,0 +1,201 @@
+.wrapper{
+    width: 1240px;
+    margin: 0 auto;
+}
+.shortcut{
+    height: 52px;
+    background-color: #333;
+}
+.shortcut .wrapper{
+    display: flex;
+    justify-content: flex-end;
+    height: 52px;
+}
+.shortcut ul{
+    display: flex;
+    line-height: 52px;
+}
+.shortcut li a{
+    padding: 0 15px;
+    border-right: #999 solid 1px;
+    font-size: 14px;
+    color: white;
+}
+.shortcut li:last-child a{
+    border-right: 0;
+}
+.shortcut li .iconfont{
+    margin-right: 4px;
+    vertical-align: middle;
+}
+.shortcut li .login{
+    color: #5eb69c;
+}
+/* 头部 */
+.header{
+    height: 88px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    display: flex;
+}
+.header .logo a{
+    width: 200px;
+    height: 88px;
+    background: url(../images/logo.png);
+    display: block;
+    font-size: 0;
+}
+.header .nav ul{
+    display: flex;
+}
+.header .nav li{
+    margin-left: 40px;
+    line-height: 88px;
+    font-size: 16px;
+}
+.header .nav li .active,
+.header .nav li a:hover{
+    color: #5EB69C;
+    padding-bottom: 10px;
+    border-bottom: #5EB69C solid 2px;
+}
+.header .search{
+    margin-left: 75px;
+    margin-bottom: 16px;
+    border-bottom: #F4F4F4 solid 2px;
+}
+.header .search a{
+    color: #ccc;
+    margin-right: 8px;
+}
+.header .search input{
+    margin: 33px 0;
+    font-size: 16px;
+    height: 26px;
+}
+.header .cart{
+    position: relative;
+    margin-left: 45px;
+}
+.header .cart a{
+    font-size: 32px;
+    line-height: 88px;
+}
+.header .cart i{
+    position: absolute;
+    display: block;
+    top: 24px;
+    left: 20px;
+    height: 15px;
+    padding: 0 6px;
+    background-color: #E26237;
+    font-size: 14px;
+    border-radius: 7.5px;
+    text-align: center;
+    line-height: 15px;
+    color: white;
+}
+/* 底部 */
+.footer{
+    background-color: #F5F5F5;
+    height: 582px;
+}
+.footer .service{
+    height: 178px;
+    width: 1240px;
+    padding-top: 60px;
+    border-bottom: #e8e8e8 solid 2px;
+}
+.footer .service ul{
+    display: flex;
+    width: 1240px;
+    padding: 0 96px;
+    justify-content: space-between;
+}
+.footer .service li{
+    width: 286px;
+    height: 58px;
+    background: url(../images/sprite.png) no-repeat;
+}
+.footer .service li:nth-child(2){
+    background-position: 0 -58px;
+}
+.footer .service li:nth-child(3){
+    background-position: 0 -116px;
+}
+.footer .service li:nth-child(2){
+    background-position: 0 -174px;
+}
+.footer .service li h3{
+    padding-left: 78px;
+    line-height: 58px;
+    font-size: 28px;
+}
+.footer .help{
+    height: 304px;
+    width: 1240px;
+    padding-top: 60px;
+    display: flex;
+}
+.footer .help dl{
+    margin-right: 82px;
+    width: 72px;
+}
+.footer .help dt{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.footer .help dd a{
+    color: #969696;
+    margin-bottom: 10.5px;
+}
+.footer .help .long{
+    width: 242px;
+    /* margin-right: 84px; */
+}
+.footer .help .iconfont{
+    color: #26b99b;
+}
+.footer .help .gzh{
+    width: 120px;
+    height: 120px;
+    background: url(../images/wechat.png);
+    margin-right: 55px;
+}
+.footer .help .gzh h3{
+    padding-top: 130px;
+    width: 120px;
+    height: 23px;
+    text-align: center;
+}
+.footer .help .app{
+    width: 120px;
+    height: 120px;
+    background: url(../images/app.png);
+}
+.footer .help .app h3{
+    padding-top: 130px;
+    width: 120px;
+    height: 23px;
+    text-align: center;
+}
+.copyright{
+    width: 612px;
+    margin: 0 auto;
+}
+.copyright ul{
+    display: flex;
+}
+.copyright li a{
+    color: #a1a1a1;
+    padding: 0 10px;
+    border-right: 1px #a1a1a1 solid;
+}
+.copyright li:last-child a{
+    border: 0;
+}
+.copyright p{
+    margin-top: 8px;
+    text-align: center;
+    color: #a1a1a1;
+}
