@@ -22,6 +22,7 @@
             height: 300px;
             /* background-color: pink; */
             margin: 200px auto;
+            display: flex;
         }
 
         .bbox ul {
@@ -34,21 +35,29 @@
             height: 300px;
             background-color: #fff;
             /* background-color: orange; */
+            margin-left: 20px;
         }
 
-        .bbox li .xm a {
+        .bbox li .x1 a {
             display: block;
             height: 200px;
             width: 220px;
             background: url(./学成在线/images/logo.png) #f0f8ff no-repeat center;
         }
-        .bbox li .xm h3{
-            margin-top: 30px;
-            padding: 0 20px;
+        .bbox li .x2 a {
+            display: block;
             height: 200px;
+            width: 220px;
+            background: url(./小兔鲜/images/logo.png) #9effd8 no-repeat center;
+        }
+        .bbox li .xm h3{
+            padding: 0 20px;
+            height: 100px;
             font-weight: 400;
             font-size: 16px;
             text-align: center;
+            display: flex;
+            align-items: center;
             
         }
     </style>
@@ -59,9 +68,16 @@
         <ul>
             <li>
                 <!-- 项目 -->
-                <div class="xm">
+                <div class="xm x1">
                     <a href="./学成在线/index.html"></a>
                     <h3 class="text">制作的第一个静态网页，视频跟做</h3>
+                </div>
+            </li>
+            <li>
+                <!-- 项目 -->
+                <div class="xm x2">
+                    <a href="./小兔鲜/xtx.html"></a>
+                    <h3 class="text">制作的第二个静态网页，加了过渡动画，根据设计图制作</h3>
                 </div>
             </li>
         </ul>
